@@ -1,18 +1,13 @@
-# Data Processing with Dask
-
 ## Overview
-This repository contains scripts for generating and processing large datasets using Dask, which leverages Pandas for parallel computing. The primary objective is to demonstrate the efficiency and capability of Dask in handling and analyzing large-scale data.
-
-## Project Task
-The main task of this project is to compute the minimum, maximum, and mean of 1 billion rows. Dask is used instead of Polars to generate the dataframe and perform the computations.
+This repository contains scripts for generating and processing large datasets using Dask, which leverages Pandas for parallel computing. The primary objective is to compute the `minimum`, `maximum`, and `mean` of 1 billion rows. Dask is used instead of Polars to generate the dataframe and perform the computations.
 
 ## Data Folder Contents
 The `data` folder contains the following files:
 1. **createMeasurements.py**: The original script for generating data.
-2. **createMeasurements2.py**: Modified version of the script to produce a CSV file instead of a semi-colon separated text file.
+2. **createMeasurements2.py**: Modified the script to produce a CSV file instead of a semi-colon separated text file.
 
 ## File Configuration
-Data is generated using `createMeasurements2.py`, resulting in the following file **measurements.csv** with a -**file size of 13.8 GB**:
+Data is generated using `createMeasurements2.py`, resulting in the following file `measurements.csv` with a **file size of 13.8 GB**:
 
 ## Performance Metrics
 ### Time to Produce File
@@ -66,3 +61,10 @@ This project leverages the power of Dask dataframes to handle large datasets eff
 ## Conclusion
 
   This repository showcases the capabilities of Dask in managing large datasets with ease. The provided scripts and performance metrics serve as a reference for utilizing parallel computing in data analysis tasks.
+
+  Using Dask, successfully calculated the minimum, maximum, and mean values for all 413 unique stations from the dataset of 1 billion rows.
+
+
+
+
+This version of the `README.md` file includes the revised conclusion, specifying that the computations were performed for all 413 unique stations.
