@@ -38,7 +38,7 @@ This project leverages the power of Dask dataframes to handle large datasets eff
 ### Steps to Run
 1. **Generate Data**:
    ```sh
-   python createMeasurements2.py
+   python3 createMeasurements2.py
    ```
 2. **Process Data**:
   Used Dask functions to load and calculate min, max & mean of the data as per your requirements.
